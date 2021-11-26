@@ -3,6 +3,11 @@ variable "parent_folder" {
   type        = string
 }
 
+variable "customer_id" {
+  description = "the Customer ID of the cloud identity / GSuite account, https://support.google.com/a/answer/10070793?product_name=UnuFlow&hl=en&visit_id=637735135889309542-3932861521&rd=1&src=supportwidget0&hl=en"
+  type        = string
+}
+
 variable "domain" {
   description = "Domain name"
   type        = string

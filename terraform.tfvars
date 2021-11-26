@@ -1,5 +1,6 @@
 parent_folder = "folders/12345"
 domain        = "example.com"
+customer_id   = "customers/XYZ"
 
 iam_global_admin_group = "group:admins@example.com"
 
